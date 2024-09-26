@@ -3,7 +3,7 @@ import { getSearchData, getYtData } from "../controllers/apiController";
 
 const router = express.Router();
 
-router.get("/yt", getYtData);
-router.get("/search", getSearchData);
+router.get("/youtube", getYtData);
+router.get("/google", getSearchData);
 
 export default router;
