@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && npx tsc",
     "start": "npm run build && node dist/index.js",
-    "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec tsx ./ src/index.ts\""
+    "dev": "npm run build && nodemon --exec tsx ./src/index.ts"
   },
   "keywords": [],
   "author": "",
