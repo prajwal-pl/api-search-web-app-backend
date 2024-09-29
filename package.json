@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "npm install && tsc --build",
+    "build": "npm install typescript && npx tsc",
     "start": "npm run build && node dist/index.js",
     "dev": "npm run build && nodemon --exec tsx ./src/index.ts"
   },
