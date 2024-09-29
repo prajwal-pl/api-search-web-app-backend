@@ -2,7 +2,6 @@
   "name": "api-search-web-app-backend",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
